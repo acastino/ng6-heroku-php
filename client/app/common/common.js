@@ -4,11 +4,11 @@ import Hero from './hero/hero';
 import User from './user/user';
 
 let commonModule = angular.module('app.common', [
-  Navbar,
-  Hero,
-  User
+    Navbar,
+    Hero,
+    User
 ])
-  
-.name;
+
+    .name;
 
 export default commonModule;
