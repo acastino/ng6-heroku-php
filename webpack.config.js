@@ -34,9 +34,10 @@ module.exports = {
             }
         }),
 
-        // Copies all the files from client/public to dist/ folder
+        // Copies all the files from client/public/ to dist/ folder
         new CopyWebpackPlugin([
-            {from: 'public'}
+            {from: 'public'},
+            {from: 'images', to: 'images'}
         ])
     ]
 };
