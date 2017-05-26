@@ -16,6 +16,7 @@ let homeModule = angular.module('home', [
                 url: '/',
                 component: 'home'
             });
+
     })
 
     .component('home', homeComponent)
